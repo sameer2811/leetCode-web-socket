@@ -37,8 +37,6 @@ io.on('connection', (socket) => {
     })
 });
 
-console.log(__dirname);
-
 app.post("/send-payload", async function (req, res) {
     const {
         userId,
